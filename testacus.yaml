@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: testacus
+  description: test
+  labels:
+    techfamily: test
+    team: test
+    cloud: AWS
+    criticality: important
+    aws-account: Unknown
+  annotations:
+    backstage.io/techdocs-ref: test
+    helix.engtools.net/legacy-service-key: abacus
+    helix.engtools.net/service-slack: 'test'
+    helix.engtools.net/mailing-list: test
+    helix.engtools.net/repo: Unknown
+    helix.engtools.net/codebase: 'test'
+    helix.engtools.net/pagerduty-teamname: Test
+    helix.engtools.net/pagerduty-service: testacus
+    helix.engtools.net/oncalltag: testacus
+    jira.grab.com/project-key: UNKNOWN
+  tags:
+    - python
+spec:
+  type: service
+  lifecycle: dev
+  owner: test
