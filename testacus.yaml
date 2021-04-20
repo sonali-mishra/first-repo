@@ -4,7 +4,7 @@ metadata:
   name: testacus
   description: test
   labels:
-    techfamily: test
+    techfamily: test test
     team: test
     cloud: AWS
     criticality: important
