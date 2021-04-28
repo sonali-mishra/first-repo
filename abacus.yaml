@@ -1,0 +1,27 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  labels:
+    cloud: AWS
+    techfamily: Loyalty
+    team: Rewards
+    criticality: important
+  annotations:
+    jira.grab.com/project-key: Unknown
+    helix.engtools.net/legacy-service-key: abacus
+    helix.engtools.net/service-slack: '#abacus-engineering'
+    helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
+    helix.engtools.net/codebase: >-
+      {"Abacus
+      Service":"https://gitlab.myteksi.net/gophers/go/tree/master/rewards/abacus"}
+    helix.engtools.net/pagerduty-service: Abacus
+    helix.engtools.net/oncalltag: '@oncall-abacus'
+    helix.engtools.net/ldap: Engineering-abacus
+  tags:
+    - golang
+  name: abacus
+  description: Abacus is a point management service
+spec:
+  type: service
+  lifecycle: production
+  owner: Engineering-abacus
