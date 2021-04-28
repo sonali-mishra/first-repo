@@ -13,7 +13,7 @@ metadata:
     helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
     helix.engtools.net/codebase: >-
       {"Abacus
-      Service":"https://gitlab.myteksi.net/gophers/go/tree/master/rewards/abacus"}
+      Service":"https://gitlab.tree/master/rewards/abacus"}
     helix.engtools.net/pagerduty-service: 
     helix.engtools.net/oncalltag: 
     helix.engtools.net/ldap: Engineering-abacus
