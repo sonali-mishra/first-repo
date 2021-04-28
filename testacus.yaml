@@ -17,6 +17,11 @@ metadata:
     helix.engtools.net/pagerduty-service: abc
     helix.engtools.net/oncalltag: '@oncall-abc'
     helix.engtools.net/ldap: Engineering-abacus
+    helix.engtools.net/legacy-codebase-name: ads
+    helix.engtools.net/datadog-dashboard-name: >-
+      {"AdServer
+      Prd":"https://app.datadoghq.com/dash/836850/adserver-prd","Autodash
+      Dashboard":"https://app.datadoghq.com/dashboard/ps8-hzz-iyi"}
   tags:
     - golang
   name: abc
