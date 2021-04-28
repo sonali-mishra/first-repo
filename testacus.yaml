@@ -3,7 +3,7 @@ kind: Component
 metadata:
   labels:
     cloud: AWS AWS
-    techfamily: Loyalty Loyalty
+    techfamily: Loyalty Loy Loy
     team: Rewards Rewards
     criticality: important imp
   annotations:
