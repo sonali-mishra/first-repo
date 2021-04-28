@@ -8,20 +8,20 @@ metadata:
     criticality: important
   annotations:
     jira.grab.com/project-key: Unknown
-    helix.engtools.net/legacy-service-key: abacus
-    helix.engtools.net/service-slack: '#abacus-engineering'
+    helix.engtools.net/legacy-service-key: 
+    helix.engtools.net/service-slack: '#-engineering'
     helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
     helix.engtools.net/codebase: >-
       {"Abacus
       Service":"https://gitlab.myteksi.net/gophers/go/tree/master/rewards/abacus"}
-    helix.engtools.net/pagerduty-service: Abacus
-    helix.engtools.net/oncalltag: '@oncall-abacus'
+    helix.engtools.net/pagerduty-service: 
+    helix.engtools.net/oncalltag: 
     helix.engtools.net/ldap: Engineering-abacus
   tags:
     - golang
-  name: abacus abacus
-  description: Abacus is a point management service
+  name: abc
+  description: abc
 spec:
   type: service
   lifecycle: production
-  owner: Engineering-abacus
+  owner: Engineering
