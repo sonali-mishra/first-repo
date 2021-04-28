@@ -19,7 +19,7 @@ metadata:
     helix.engtools.net/ldap: Engineering-abacus
   tags:
     - golang
-  name: abacus
+  name: abacus abacus
   description: Abacus is a point management service
 spec:
   type: service
