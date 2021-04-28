@@ -1,28 +1,27 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: testacus
-  description: test
   labels:
-    techfamily: test test
-    team: test
     cloud: AWS
+    techfamily: Loyalty
+    team: Rewards
     criticality: important
-    aws-account: Unknown
   annotations:
-    backstage.io/techdocs-ref: test
+    jira.grab.com/project-key: Unknown
     helix.engtools.net/legacy-service-key: abacus
-    helix.engtools.net/service-slack: 'test'
-    helix.engtools.net/mailing-list: test
-    helix.engtools.net/repo: Unknown
-    helix.engtools.net/codebase: 'test'
-    helix.engtools.net/pagerduty-teamname: Test
-    helix.engtools.net/pagerduty-service: testacus
-    helix.engtools.net/oncalltag: testacus
-    jira.grab.com/project-key: UNKNOWN
+    helix.engtools.net/service-slack: '#abacus-engineering'
+    helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
+    helix.engtools.net/codebase: >-
+      {"Abacus
+      Service":"https://gitlab.myteksi.net/gophers/go/tree/master/rewards/abacus"}
+    helix.engtools.net/pagerduty-service: Abacus
+    helix.engtools.net/oncalltag: '@oncall-abacus'
+    helix.engtools.net/ldap: Engineering-abacus
   tags:
-    - python
+    - golang
+  name: abacus
+  description: Abacus is a point management service
 spec:
   type: service
-  lifecycle: dev
-  owner: test
+  lifecycle: production
+  owner: Engineering-abacus
