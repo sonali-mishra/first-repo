@@ -14,7 +14,7 @@ metadata:
     helix.engtools.net/codebase: >-
       {"Abacus
       Service":"https://gitlab.tree/master/rewards/abacus"}
-    helix.engtools.net/pagerduty-service: 
+    helix.engtools.net/pagerduty-service: abc
     helix.engtools.net/oncalltag: '@oncall-abc'
     helix.engtools.net/ldap: Engineering-abacus
   tags:
