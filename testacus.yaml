@@ -2,13 +2,13 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   labels:
-    cloud: AWS
+    cloud: AWS AWS
     techfamily: Loyalty Loyalty
-    team: Rewards
-    criticality: important
+    team: Rewards Rewards
+    criticality: important imp
   annotations:
     jira.grab.com/project-key: Unknown
-    helix.engtools.net/legacy-service-key: abc
+    helix.engtools.net/legacy-service-key: abc abc
     helix.engtools.net/service-slack: '#-engineering'
     helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
     helix.engtools.net/codebase: >-
