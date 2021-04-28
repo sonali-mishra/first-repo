@@ -8,14 +8,14 @@ metadata:
     criticality: important
   annotations:
     jira.grab.com/project-key: Unknown
-    helix.engtools.net/legacy-service-key: 
+    helix.engtools.net/legacy-service-key: abc
     helix.engtools.net/service-slack: '#-engineering'
     helix.engtools.net/mailing-list: tech.rewards@grabtaxi.com
     helix.engtools.net/codebase: >-
       {"Abacus
       Service":"https://gitlab.tree/master/rewards/abacus"}
     helix.engtools.net/pagerduty-service: 
-    helix.engtools.net/oncalltag: 
+    helix.engtools.net/oncalltag: '@oncall-abc'
     helix.engtools.net/ldap: Engineering-abacus
   tags:
     - golang
